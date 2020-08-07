@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Porksour from '../../../images/sweet/sour.jpg';
+import Chickensour from '../../../images/sweet/chicken.jpg'; 
+import Shrimpsour from '../../../images/sweet/shrimp.jpg'; 
+
 export default class SweetSour extends Component {
   render() {
     return (
@@ -16,7 +20,6 @@ export default class SweetSour extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Sweet and Sour</h1>
-                  <p>with White Rice, Sauce on the Side</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +27,7 @@ export default class SweetSour extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Porksour} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">101.  Sweet and Sour Pork</li>
@@ -36,7 +39,7 @@ export default class SweetSour extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickensour} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">102.  Sweet and Sour Chicken</li>
@@ -48,7 +51,7 @@ export default class SweetSour extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Shrimpsour} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">103.  Sweet and Sour Shrimp</li>

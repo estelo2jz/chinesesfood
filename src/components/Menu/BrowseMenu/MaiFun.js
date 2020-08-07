@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Beefmai from '../../../images/mai/beefmai.jpg';
+import Chickenmai from '../../../images/mai/chickenmai.jpg';
+import Housemai from '../../../images/mai/housemai.jpg';
+import Shrimpmai from '../../../images/mai/shrimpmai.jpg';
+import Singmai from '../../../images/mai/singmai.jpg';
+import Vegemai from '../../../images/mai/vegemai.jpg';
+
 export default class MaiFun extends Component {
   render() {
     return (
@@ -16,7 +23,6 @@ export default class MaiFun extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Mai Fun</h1>
-                  <p>Thin Rice Noodle</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +30,7 @@ export default class MaiFun extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Vegemai} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">40.  Vegetable Mai Fun</li>
@@ -37,7 +43,7 @@ export default class MaiFun extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickenmai} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">41.  Chicken or Roast Pork Mai Fun</li>
@@ -50,7 +56,7 @@ export default class MaiFun extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Shrimpmai} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">42.  Shrimp Mai Fun</li>
@@ -63,7 +69,7 @@ export default class MaiFun extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefmai} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">42a.  Beef Mai Fun</li>
@@ -76,7 +82,7 @@ export default class MaiFun extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Housemai} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">43.  House Special Mai Fun</li>
@@ -89,7 +95,7 @@ export default class MaiFun extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Singmai} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">44.  Singapore Mei Fun</li>

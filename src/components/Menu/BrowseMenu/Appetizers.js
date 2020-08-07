@@ -1,6 +1,20 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Boneless from '../../../images/appetizers/boneless.jpg';
+import Chickenstick from '../../../images/appetizers/chickenstick.jpg';
+import Crabmeatrangoon from '../../../images/appetizers/crabmeatrangoon.jpg';
+import Friedplantain from '../../../images/appetizers/friedplantain.png';
+import Friedshrimp from '../../../images/appetizers/friedshrimp.jpg';
+import Friedsteam from '../../../images/appetizers/friedsteam.jpg';
+import Friedwings from '../../../images/appetizers/friedwings.jpg';
+import Fries from '../../../images/appetizers/fries.jpg';
+import Jumboshrimp from '../../../images/appetizers/jumboshrimp.jpg';
+import Onionrings from '../../../images/appetizers/onionrings.jpg';
+import Roastporkegg from '../../../images/appetizers/roastporkegg.jpg';
+import Shrimpegg from '../../../images/appetizers/shrimpegg.jpg';
+import Vegerolls from '../../../images/appetizers/vegerolls.jpg';
+
 export default class Appetizers extends Component {
   render() {
     return (
@@ -23,7 +37,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Roastporkegg} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">9.  Roast Pork Egg Roll (1)</li>
@@ -36,7 +50,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Shrimpegg} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">10.  Shrimp Egg Roll (1)</li>
@@ -49,7 +63,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Vegerolls} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">11.  Vegetable Spring Roll (2)</li>
@@ -62,7 +76,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Crabmeatrangoon} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">12.  Crabmeat Rangoon (8)</li>
@@ -75,7 +89,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Friedsteam} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">14.  Fried or Steamed Dumpling (6)</li>
@@ -88,7 +102,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Fries} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">15.  French Fries</li>
@@ -101,7 +115,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Onionrings} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">16.  Onion Ring</li>
@@ -114,7 +128,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Friedwings} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">17.  Fried Chicken Wings (3)</li>
@@ -127,7 +141,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickenstick} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">18.  Chicken on Stick (4)</li>
@@ -140,7 +154,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Friedshrimp} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">19.  Fried Shrimp (6)</li>
@@ -153,7 +167,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumboshrimp} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">20.  Jumbo Shrimp on Stick (2)</li>
@@ -166,7 +180,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Boneless} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">21.  Boneless Spare Rib</li>
@@ -179,7 +193,7 @@ export default class Appetizers extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Friedplantain} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">22.  Fried Plantain</li>

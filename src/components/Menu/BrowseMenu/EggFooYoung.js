@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Beeffoo from '../../../images/foo/beeffoo.jpg';
+import Housefoo from '../../../images/foo/housefoo.jpg';
+import Mushfoo from '../../../images/foo/mushfoo.jpeg';
+import Roastfoo from '../../../images/foo/roastfoo.jpg';
+import Shrimpfoo from '../../../images/foo/shrimpfoo.jpg';
+import Vegefoo from '../../../images/foo/vegefoo.jpg';
+
 export default class EggFooYoung extends Component {
   render() {
     return (
@@ -16,7 +23,6 @@ export default class EggFooYoung extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Egg Foo Young</h1>
-                  <p>(w, White Rice) (3 Patties)</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +30,7 @@ export default class EggFooYoung extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Vegefoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">83.  Vegetable Egg Foo Young</li>
@@ -36,7 +42,7 @@ export default class EggFooYoung extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Mushfoo} />
                       </div>
                       <div className="option-right-side">
                           <li className="option-name">84.  Mushroom Egg Foo Young</li>
@@ -48,7 +54,7 @@ export default class EggFooYoung extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Roastfoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">85.  Roast Pork or Chicken Egg Foo Young</li>
@@ -60,7 +66,7 @@ export default class EggFooYoung extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Shrimpfoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">86.  Shrimp Egg Foo Young</li>
@@ -72,7 +78,7 @@ export default class EggFooYoung extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beeffoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">87.  Beef Egg Foo Young</li>
@@ -84,7 +90,7 @@ export default class EggFooYoung extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Housefoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">88.  House Special Egg Foo Young</li>

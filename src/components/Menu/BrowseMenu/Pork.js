@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Roastpork from '../../../images/pork/roastpork.jpg';
+import Porkpeas from '../../../images/pork/porkpeas.jpg';
+import Porkvege from '../../../images/pork/porkvege.jpg';
+import Porkmush from '../../../images/pork/porkmush.jpg';
+import { Route } from 'react-router-dom';
+
 export default class Pork extends Component {
   render() {
     return (
@@ -16,7 +22,6 @@ export default class Pork extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Pork</h1>
-                  <p>with White Rice</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +29,7 @@ export default class Pork extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Roastpork} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">62.  Roast Pork with Broccoli</li>
@@ -37,7 +42,7 @@ export default class Pork extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Porkvege} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">63.  Roast Pork with Chinese Veg.</li>
@@ -50,7 +55,7 @@ export default class Pork extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Porkpeas} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">64.  Roast Pork with Snow Peas</li>
@@ -63,7 +68,7 @@ export default class Pork extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Porkmush} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">65.  Roast Pork with Mushrooms</li>

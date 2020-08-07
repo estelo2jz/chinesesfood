@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Jumbolobs from '../../../images/shrimp/jumbosauce.jpg';
+import Jumbocurry from '../../../images/shrimp/jumbocurry.jpg';
+import Jumbomix from '../../../images/shrimp/jumbomix.jpg';
+import Jumbomush from '../../../images/shrimp/jumbomush.jpg';
+import Jumbopeas from '../../../images/shrimp/jumbopeas.jpg';
+import Jumbopepper from '../../../images/shrimp/jumbopepper.jpg';
+import Jumbobro from '../../../images/shrimp/jumboshr.jpg';
+import Jumbovege from '../../../images/shrimp/jumbovege.jpg';
+
+
 export default class SeaFood extends Component {
   render() {
     return (
@@ -16,7 +26,6 @@ export default class SeaFood extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Sea Food</h1>
-                  <p>with White Rice</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +33,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbobro} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">74.  Jumbo Shrimp with Broccoli</li>
@@ -36,7 +45,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbolobs} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">75.  Jumbo Shrimp with Lobster Sauce</li>
@@ -48,7 +57,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbovege} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">76.  Jumbo Shrimp with Chinese Veg.</li>
@@ -60,7 +69,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbopeas} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">78.  Jumbo Shrimp with Snow Peas)</li>
@@ -72,7 +81,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbomush} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">79.  Jumbo Shrimp with Mushrooms</li>
@@ -84,7 +93,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbomix} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">80.  Jumbo Shrimp with Mixed Veg.</li>
@@ -96,7 +105,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbocurry} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">81.  Jumbo Shrimp with Curry Sauce</li>
@@ -108,7 +117,7 @@ export default class SeaFood extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumbopepper} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">82.  Salt & Pepper Shrimp</li>

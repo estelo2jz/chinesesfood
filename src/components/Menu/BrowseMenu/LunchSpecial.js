@@ -1,6 +1,18 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
-import PageTitle from '../../PageTitle';
+
+import Beefbro from '../../../images/lunch/beefbro.jpg';
+import Beefcurry from '../../../images/lunch/beefcurry.jpg';
+import Cashew from '../../../images/lunch/cashew.jpg';
+import Chickvege from '../../../images/lunch/chickvege.jpg';
+import Chopsuey from '../../../images/lunch/chopsuey.jpg';
+import Eggfooyoung from '../../../images/lunch/eggfooyoung.jpeg';
+import Lomein from '../../../images/lunch/lomein.jpg';
+import Mixvege from '../../../images/lunch/mixvege.jpeg';
+import Moogoo from '../../../images/lunch/moogoo.jpg';
+import Peppersteak from '../../../images/lunch/peppersteak.jpg';
+import Sweet from '../../../images/lunch/sweet.jpg';
+
 
 
 export default class LunchSpecial extends Component {
@@ -25,7 +37,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Mixvege} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L1.  Mixed Vegetables (No Meat) (Lunch)</li>
@@ -37,7 +49,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chopsuey} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L2.  Chop Suey (Pork, Chicken or Beef) (Lunch)</li>
@@ -49,7 +61,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Lomein} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L3.  Lo Mein (Pork, Chicken or Beef) (Lunch)</li>
@@ -61,7 +73,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Eggfooyoung} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L4.  Egg Foo Young (Pork, Chicken or Beef) (Lunch)</li>
@@ -73,7 +85,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Peppersteak} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L5.  Pepper Steak with Onions (Lunch)</li>
@@ -85,7 +97,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefbro} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L6.  Broccoli (Pork, Chicken or Beef) (Lunch)</li>
@@ -97,7 +109,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Moogoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L7.  Moo Goo Gai Pan (Chicken) (Lunch)</li>
@@ -109,7 +121,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Sweet} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L8.  Sweet and Sour Chicken or Pork (Lunch)</li>
@@ -121,7 +133,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Cashew} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L9.  Chicken with Cashew Nuts (Lunch)</li>
@@ -133,7 +145,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickvege} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L10.  Chicken with Mixed Vegetables (Lunch)</li>
@@ -145,7 +157,7 @@ export default class LunchSpecial extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefcurry} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">L11.  Curry Chicken or Beef (Lunch)Spicy</li>

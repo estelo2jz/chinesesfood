@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Chicknoddle from '../../../images/soup/chicknoddle.jpg';
+import Eggsoup from '../../../images/soup/egg.jpg';
+import Hotsoup from '../../../images/soup/hotsoup.jpg';
+import Housesoup from '../../../images/soup/housesoup.jpg';
+import Seafoodhot from '../../../images/soup/seafoodhot.jpg';
+import Seafoodnoddle from '../../../images/soup/seafoodnoddle.jpg';
+import Vegesoup from '../../../images/soup/vegesoup.jpg';
+import Wonton from '../../../images/soup/wonton.jpg';
+import Wontonegg from '../../../images/soup/wontonegg.jpg';
+
 export default class Soup extends Component {
   render() {
     return (
@@ -23,7 +33,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Wonton} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">1. Wonton Soup</li>
@@ -36,7 +46,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Eggsoup} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">2. Egg Drop Soup</li>
@@ -49,7 +59,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Wontonegg} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">3. Wonton Egg Drop Soup</li>
@@ -62,7 +72,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chicknoddle} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">4. Chicken Noodle or Rice Soup</li>
@@ -75,7 +85,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Vegesoup} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">5. Vegetable Soup</li>
@@ -88,7 +98,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Hotsoup} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">6. Hot & Sour Soup</li>
@@ -101,7 +111,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Housesoup} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">7. House Special Soup (for 2)</li>
@@ -114,7 +124,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Seafoodnoddle} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">7a. Seafood Noodle Soup (for 2))</li>
@@ -127,7 +137,7 @@ export default class Soup extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Seafoodhot} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">8. Seafood or Seafood Hot & Sour Soup (for 2)</li>

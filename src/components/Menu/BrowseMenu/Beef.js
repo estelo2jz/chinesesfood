@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Beefbro from '../../../images/beef/beefbro.jpg';
+import Beefcurry from '../../../images/beef/beefcurry.jpg';
+import Beefmix from '../../../images/beef/beefmix.jpg';
+import Beefmush from '../../../images/beef/beefmush.jpg';
+import Beefpeas from '../../../images/beef/beefpeas.jpg';
+import Beefvege from '../../../images/beef/beefvege.jpg';
+import Peppersteak from '../../../images/beef/peppersteak.jpg';
+import Peppertom from '../../../images/beef/peppertom.jpg';
+
 export default class Beef extends Component {
   render() {
     return (
@@ -16,7 +25,6 @@ export default class Beef extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Beef</h1>
-                  <p>with White Rice</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +32,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefbro} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">66.  Beef with Broccoli</li>
@@ -37,7 +45,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Peppersteak} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">67.  Pepper Steak with Onion</li>
@@ -50,7 +58,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Peppertom} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">Pepper Steak with Tomato</li>
@@ -63,7 +71,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefvege} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">69.  Beef with Chinese Vegetable</li>
@@ -76,7 +84,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefmush} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">70.  Beef with Mushrooms</li>
@@ -89,7 +97,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefpeas} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">71.  Beef with Snow Peas</li>
@@ -102,7 +110,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefcurry} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">72.  Beef with Curry Sauce</li>
@@ -115,7 +123,7 @@ export default class Beef extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beefmix} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">73.  Beef with Mixed Veg.</li>

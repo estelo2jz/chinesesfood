@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Beefrice from '../../../images/rice/beefrice.jpg';
+import Chickenrice from '../../../images/rice/chickenrice.jpg';
+import Crabrice from '../../../images/rice/crabrice.jpg';
+import Eggrice from '../../../images/rice/eggrice.jpg';
+import Houserice from '../../../images/rice/houserice.jpg';
+import Jumborice from '../../../images/rice/jumborice.jpg';
+import Lobsterrice from '../../../images/rice/lobsterrice.jpg';
+import Mushrice from '../../../images/rice/mushrice.jpg';
+import Shrimprice from '../../../images/rice/shrimprice.jpg';
+import Vegerice from '../../../images/rice/vegerice.jpg';
+
 export default class FriedRice extends Component {
   render() {
     return (
@@ -23,7 +34,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Eggrice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">24.  Egg Fried Rice</li>
@@ -36,7 +47,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickenrice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">25.  Pork or Chicken Fried Rice</li>
@@ -49,7 +60,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Shrimprice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">26.  Shrimp Fried Rice</li>
@@ -62,7 +73,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                      <img src={Beefrice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">27.  Beef Fried Rice</li>
@@ -75,7 +86,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Vegerice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">28.  Vegetable Fried Rice</li>
@@ -88,7 +99,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Crabrice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">29.  Crab Meat Fried Rice</li>
@@ -101,7 +112,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Mushrice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">30.  Mushroom Fried Rice</li>
@@ -114,7 +125,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Lobsterrice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">31.  Lobster Fried Rice</li>
@@ -127,7 +138,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Houserice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">32.  House Special Fried Rice</li>
@@ -140,7 +151,7 @@ export default class FriedRice extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Jumborice} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">33.  Hot & Spicy Jumbo Shrimp Fried Rice</li>

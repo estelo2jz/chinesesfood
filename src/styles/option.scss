@@ -20,6 +20,7 @@
 
   .option-helper-container {
 
+
     height: 600px;
     .option-summary-container {
       display: grid;
@@ -27,18 +28,21 @@
       align-items: center;
       align-content: center;
       width: 100%;
+      
   
       .option-menu-header {
         width: 30vh;
-        height: 12vh;
+        height: 5vh;
         padding: 10px;
         border-radius: 5px;
-        color: white;
-        background-color: #b58e5a;
+        color: rgb(177, 21, 21);
         display: flex;
         justify-content: center;
         align-items: center;
         align-content: center;
+        border-bottom-width: 5px;
+        border-bottom-style: dotted;
+        border-bottom-color: orange;
 
         h1,p {
           font-family: 'Hind Madurai', sans-serif;
@@ -50,14 +54,17 @@
         .option-menu-grid-container {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
+          
 
           .option-table-flex {
             width: 500px;
             display: flex;
             justify-content: center;
             align-items: center;
-            align-content: ce;
+            align-content: center;
             padding-top: 20px;
+            grid-column-gap: 10px;
+            margin: 5px;
 
             ul {
               display: flex;
@@ -67,17 +74,42 @@
               list-style: none;
               grid-column-gap: 20px;
               padding: 0;
-              width: 300px;
+              width: 100%;
+              box-shadow: 0 8px 6px -6px black;
+
 
               .option-left-side {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-position: center;
+                background-position: top;
+                img {
+                  border-radius: 2px;
+                  width: 250px;
+                  height: 200px;
+                }
 
               }
               
               .option-right-side {
+                border-radius: 2px;
+                font-weight: 600;
+                height: 150px;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
                 width: 300px;
                 font-family: 'Quicksand', sans-serif;
+                box-shadow: 0 8px 6px -6px black;
+
+                li {
+                  padding: 5px;
+                }
                 .option-name {
-                  width: 100%;
+                  width: 20vh;
+                  font-weight: 600;
                 }
               }
             }

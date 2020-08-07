@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import Chickenchi from '../../../images/chicken/chickenchi.jpg';
+import Chickencurry from '../../../images/chicken/chickencurry.jpg';
+import Chickenvege from '../../../images/chicken/chickenvege.jpg';
+import Moogoo from '../../../images/chicken/moogoo.jpg';
+import Peas from '../../../images/chicken/peas.jpg';
+
 export default class Chicken extends Component {
   render() {
     return (
@@ -16,7 +22,6 @@ export default class Chicken extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Chicken</h1>
-                  <p>with White Rice</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +29,7 @@ export default class Chicken extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickenchi} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">Chicken with Broccoli</li>
@@ -37,7 +42,7 @@ export default class Chicken extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Moogoo} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">57.  Moo Goo Gai Pan</li>
@@ -50,7 +55,7 @@ export default class Chicken extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Peas} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">59.  Chicken with Snow Peas</li>
@@ -63,7 +68,7 @@ export default class Chicken extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickenvege} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">60.  Chicken with Mixed Vegetable</li>
@@ -76,7 +81,7 @@ export default class Chicken extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Chickencurry} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">61.  Chicken with Curry Sauce</li>

@@ -3,7 +3,8 @@
 
     .menu-header {
       h1 {
-        font-family: 'Hind Madurai', sans-serif;
+        font-family: 'Sriracha', cursive;
+        font-size: 2em;
       }
     }
 
@@ -16,11 +17,11 @@
 
 
       h1 {
-        box-shadow: 0px 10px 14px -7px #b58e5a;
-        background-color:#b58e5a;
+        box-shadow: 0px 10px 14px -7px #ffa600;
+        background-color:#ffa600;
         border-radius:4px;
         width: 200px;
-        border:1px solid #b58e5a;
+        border:1px solid #ffa600;
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
@@ -29,12 +30,14 @@
         font-weight:bold;
         padding:6px 12px;
         text-decoration:none;
-        text-shadow:0px 1px 0px #b58e5a;
+        text-shadow:0px 1px 0px #ffa600;
         font-family: 'Nanum Gothic', sans-serif;
+        box-shadow: 0 8px 6px -6px black;
+
       }
       h1:hover {
-        background:linear-gradient(#b58e5a);
-        background-color:#b58e5a;
+        background:linear-gradient(#ffa600);
+        background-color:#ffa600;
       }
       h1:active {
         position:relative;

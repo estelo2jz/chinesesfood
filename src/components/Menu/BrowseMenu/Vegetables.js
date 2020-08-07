@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
 import BrowseMenu from './BrowseMenu';
 
+import BeanCurd from '../../../images/vege/bean.jpg';
+import Beanbro from '../../../images/vege/beanbro.jpg';
+import Delight from '../../../images/vege/delight.jpg';
+import Garlic from '../../../images/vege/garlic.jpg';
+import Orange from '../../../images/vege/orange.jpg';
+import Saubro from '../../../images/vege/saubro.jpg';
+import Saumix from '../../../images/vege/saumix.jpeg';
+import Saupeas from '../../../images/vege/saupeas.jpg';
+
 export default class Vegetables extends Component {
   render() {
     return (
@@ -16,7 +25,6 @@ export default class Vegetables extends Component {
               <div className="option-menu-header">
                 <div>
                   <h1>Vegetables</h1>
-                  <p>(w, White Rice) (3 Patties)</p>
                 </div>
               </div>
               <div className="option-menu-info">
@@ -24,7 +32,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                      <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Saubro} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">89.  Sauteed Broccoli</li>
@@ -36,7 +44,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Saupeas} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">90.  Sauteed Snow Peas</li>
@@ -48,7 +56,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Saumix} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">91.  Sauteed Mixed Vegetables</li>
@@ -60,7 +68,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={BeanCurd} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">92.  Szechuan Bean Curd</li>
@@ -72,7 +80,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Beanbro} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">93.  Bean Curd with Broccoli</li>
@@ -84,7 +92,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Delight} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">94.  Buddha's Delight (Chinese Veg.)</li>
@@ -96,7 +104,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Garlic} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">95.  Broccoli in Garlic Sauce</li>
@@ -108,7 +116,7 @@ export default class Vegetables extends Component {
                   <div className="option-table-flex">
                     <ul>
                       <div className="option-left-side">
-                        <img src='http://via.placeholder.com/130x130' />
+                        <img src={Orange} />
                       </div>
                       <div className="option-right-side">
                         <li className="option-name">96.  Crispy Orange Tofu</li>
