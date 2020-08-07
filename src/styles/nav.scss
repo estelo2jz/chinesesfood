@@ -1,9 +1,10 @@
 .navbar {
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
-  background-color: #ffa600;
+  background-color: #b11515;
 
   a {
     text-decoration: none;
@@ -11,6 +12,8 @@
 
   &__link {
     padding: 10px;
+    margin: 0;
+    height: 15vh;
   }
 
   p {
@@ -18,5 +21,45 @@
     font-weight: 600;
     color: white;
     font-family: 'Hind Madurai', sans-serif;
+  }
+}
+
+// Top Nav styles
+.top-nav-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #b11515;
+  color: white;
+  height: 20vh;
+
+  .top-nav-title {
+    font-size: 3em;
+    margin: -50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+
+  }
+
+  .top-nav-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Quicksand', sans-serif;
+
+    p {
+      margin: 5px;
+    }
+  }
+
+  .top-nav-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Quicksand', sans-serif;
+
   }
 }

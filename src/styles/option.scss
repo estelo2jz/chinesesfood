@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 20%;
+    width: 45%;
   }
 
   .option-helper-container {
@@ -31,7 +31,7 @@
       
   
       .option-menu-header {
-        width: 30vh;
+        width: 100%;
         height: 5vh;
         padding: 10px;
         border-radius: 5px;
@@ -54,10 +54,14 @@
         .option-menu-grid-container {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          width: 100%;
           
 
           .option-table-flex {
-            width: 500px;
+            width: 480px;
             display: flex;
             justify-content: center;
             align-items: center;

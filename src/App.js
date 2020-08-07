@@ -5,6 +5,7 @@ import './styles/main.scss';
 
 import Home from './components/Home';
 import Menu from './components/Menu';
+import TopNav from './components/TopNav';
 import NavBar from './components/NavBar';
 import Coupon from './components/Coupon';
 import Map from './components/Map';
@@ -31,6 +32,7 @@ function App() {
   return (
     <div className="App">
     <Router>
+      <TopNav />
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home} />
