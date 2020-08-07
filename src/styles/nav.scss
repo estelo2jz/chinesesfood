@@ -3,8 +3,20 @@
   justify-content: center;
   align-items: center;
   align-content: center;
+  background-color: #b58e5a;
+
+  a {
+    text-decoration: none;
+  }
 
   &__link {
     padding: 10px;
+  }
+
+  p {
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
   }
 }

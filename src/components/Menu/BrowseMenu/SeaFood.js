@@ -15,7 +15,7 @@ export default class SeaFood extends Component {
             <div className="option-summary-container">
               <div className="option-menu-header">
                 <div>
-                  <h1>Sea Food (Camarones)</h1>
+                  <h1>Sea Food</h1>
                   <p>with White Rice</p>
                 </div>
               </div>
@@ -23,10 +23,10 @@ export default class SeaFood extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">74.  Jumbo Shrimp with Broccoli</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.25</li>
@@ -35,10 +35,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">75.  Jumbo Shrimp with Lobster Sauce</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.25</li>
@@ -47,10 +47,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">76.  Jumbo Shrimp with Chinese Veg.</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.25</li>
@@ -59,10 +59,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">78.  Jumbo Shrimp with Snow Peas)</li>
                         <li className="option-price-small">(S)$6.95</li>
                         <li className="option-price-large">(L)$10.95</li>
@@ -71,10 +71,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">79.  Jumbo Shrimp with Mushrooms</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.75</li>
@@ -83,10 +83,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">80.  Jumbo Shrimp with Mixed Veg.</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.25</li>
@@ -95,10 +95,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">81.  Jumbo Shrimp with Curry Sauce</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.25</li>
@@ -107,10 +107,10 @@ export default class SeaFood extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">82.  Salt & Pepper Shrimp</li>
                         <li className="option-price-small">(S)$7.95</li>
                         <li className="option-price-large">(L)$14.95</li>

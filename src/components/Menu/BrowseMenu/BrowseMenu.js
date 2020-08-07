@@ -2,22 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 
 import '../../../styles/main.scss';
-
-// Menu Options
-import LunchSpecial from './LunchSpecial';
-import Soup from './Soup';
-import Appetizers from './Appetizers';
-import FriedRice from './FriedRice';
-import LoMien from './LoMien';
-import MaiFun from './MaiFun';
-import ChopSuey from './ChopSuey';
-import Chicken from './Chicken';
-import Pork from './Pork';
-import Beef from './Beef';
-import SeaFood from './SeaFood';
-import EggFooYoung from './EggFooYoung';
-import Vegetables from './Vegetables';
-import SweetSour from './SweetSour';
+import AllDishes from './AllDishes';
 
 export default class BrowseMenu extends Component {
   render() {

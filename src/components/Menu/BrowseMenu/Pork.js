@@ -15,7 +15,7 @@ export default class Pork extends Component {
             <div className="option-summary-container">
               <div className="option-menu-header">
                 <div>
-                  <h1>Pork (Cerdo)</h1>
+                  <h1>Pork</h1>
                   <p>with White Rice</p>
                 </div>
               </div>

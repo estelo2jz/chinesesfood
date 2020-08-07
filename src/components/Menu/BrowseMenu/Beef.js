@@ -15,7 +15,7 @@ export default class Beef extends Component {
             <div className="option-summary-container">
               <div className="option-menu-header">
                 <div>
-                  <h1>Beef (Carne De Res)</h1>
+                  <h1>Beef</h1>
                   <p>with White Rice</p>
                 </div>
               </div>

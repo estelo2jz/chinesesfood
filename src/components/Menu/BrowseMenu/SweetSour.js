@@ -23,10 +23,10 @@ export default class SweetSour extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">101.  Sweet and Sour Pork</li>
                         <li className="option-price-small">(S)$5.95</li>
                         <li className="option-price-large">(L)$8.95</li>
@@ -35,10 +35,10 @@ export default class SweetSour extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">102.  Sweet and Sour Chicken</li>
                         <li className="option-price-small">(S)$5.95</li>
                         <li className="option-price-large">(L)$8.95</li>
@@ -47,10 +47,10 @@ export default class SweetSour extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">103.  Sweet and Sour Shrimp</li>
                         <li className="option-price-small">(S)$6.25</li>
                         <li className="option-price-large">(L)$10.25</li>

@@ -15,7 +15,7 @@ export default class Appetizers extends Component {
             <div className="option-summary-container">
               <div className="option-menu-header">
                 <div>
-                  <h1>Appetizers (Aperitivos)</h1>
+                  <h1>Appetizers</h1>
                 </div>
               </div>
               <div className="option-menu-info">

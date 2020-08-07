@@ -27,7 +27,7 @@ export default class ChopSuey extends Component {
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
                       <div className="option-right-side">
-                        <li className="option-name">Vegetable Chop Suey</li>
+                        <li className="option-name">50. Vegetable Chop Suey</li>
                         <li className="option-price-small">(S)$4.75</li>
                         <li className="option-price-large">(L)$7.25</li>
                         

@@ -23,10 +23,10 @@ export default class Vegetables extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                     <div>
+                     <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">89.  Sauteed Broccoli</li>
                         <li className="option-price-small">(S)$4.75</li>
                         <li className="option-price-large">$8.25</li>
@@ -35,10 +35,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">90.  Sauteed Snow Peas</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$8.95</li>
@@ -47,10 +47,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">91.  Sauteed Mixed Vegetables</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$8.25</li>
@@ -59,10 +59,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">92.  Szechuan Bean Curd</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$8.95</li>
@@ -71,10 +71,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">93.  Bean Curd with Broccoli</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$8.95</li>
@@ -83,10 +83,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">94.  Buddha's Delight (Chinese Veg.)</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$8.95</li>
@@ -95,10 +95,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">95.  Broccoli in Garlic Sauce</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$8.25</li>
@@ -107,10 +107,10 @@ export default class Vegetables extends Component {
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <div>
+                      <div className="option-left-side">
                         <img src='http://via.placeholder.com/130x130' />
                       </div>
-                      <div>
+                      <div className="option-right-side">
                         <li className="option-name">96.  Crispy Orange Tofu</li>
                         <li className="option-price-small">-</li>
                         <li className="option-price-large">$9.25</li>

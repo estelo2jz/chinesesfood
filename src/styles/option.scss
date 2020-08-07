@@ -1,6 +1,8 @@
 .option-outside-container {
   position: relative;
+  margin: 0;
   .option-container {
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +15,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 60%;
+    width: 20%;
   }
 
   .option-helper-container {
@@ -27,20 +29,35 @@
       width: 100%;
   
       .option-menu-header {
-        width: 100vh;
-        height: 15vh;
+        width: 30vh;
+        height: 12vh;
         padding: 10px;
-        background-color: rgb(192, 183, 183);
+        border-radius: 5px;
+        color: white;
+        background-color: #b58e5a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        h1,p {
+          font-family: 'Hind Madurai', sans-serif;
+        }
   
       }
 
       .option-menu-info {
         .option-menu-grid-container {
           display: grid;
-          grid-template-columns: 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
 
           .option-table-flex {
-            width: 400px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: ce;
+            padding-top: 20px;
 
             ul {
               display: flex;
@@ -48,7 +65,21 @@
               align-items: center;
               align-content: center;
               list-style: none;
-              grid-column-gap: 10px;
+              grid-column-gap: 20px;
+              padding: 0;
+              width: 300px;
+
+              .option-left-side {
+
+              }
+              
+              .option-right-side {
+                width: 300px;
+                font-family: 'Quicksand', sans-serif;
+                .option-name {
+                  width: 100%;
+                }
+              }
             }
           }
         }

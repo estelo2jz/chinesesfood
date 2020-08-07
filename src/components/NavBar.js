@@ -43,12 +43,12 @@ function NavBar(props) {
       >
         <p>Map</p>
       </NavLink>
-      <NavLink
+      {/* <NavLink
         className="navbar__link"
         to="/cart"
       >
         <h3 className="nav-cart">Cart <span>0</span></h3>
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 }
