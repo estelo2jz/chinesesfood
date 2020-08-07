@@ -1,0 +1,48 @@
+.option-outside-container {
+  position: relative;
+  .option-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+  }
+
+  .option-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60%;
+  }
+
+  .option-helper-container {
+
+    height: 600px;
+    .option-summary-container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      width: 100%;
+  
+      .option-menu-header {
+        width: 100vh;
+        height: 15vh;
+        padding: 10px;
+        background-color: rgb(192, 183, 183);
+  
+      }
+
+      .option-menu-info {
+        .option-menu-grid-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+      }
+  
+    }
+
+  } 
+}
+
