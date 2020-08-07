@@ -24,79 +24,134 @@ export default class LunchSpecial extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L1.  Mixed Vegetables (No Meat) (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L1.  Mixed Vegetables (No Meat) (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L2.  Chop Suey (Pork, Chicken or Beef) (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L2.  Chop Suey (Pork, Chicken or Beef) (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L3.  Lo Mein (Pork, Chicken or Beef) (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L3.  Lo Mein (Pork, Chicken or Beef) (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L4.  Egg Foo Young (Pork, Chicken or Beef) (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L4.  Egg Foo Young (Pork, Chicken or Beef) (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L5.  Pepper Steak with Onions (Lunch)</li>
-                      <li>$6.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L5.  Pepper Steak with Onions (Lunch)</li>
+                        <li className="option-price-large">$6.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L6.  Broccoli (Pork, Chicken or Beef) (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L6.  Broccoli (Pork, Chicken or Beef) (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L7.  Moo Goo Gai Pan (Chicken) (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L7.  Moo Goo Gai Pan (Chicken) (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L8.  Sweet and Sour Chicken or Pork (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L8.  Sweet and Sour Chicken or Pork (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L9.  Chicken with Cashew Nuts (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L9.  Chicken with Cashew Nuts (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L10.  Chicken with Mixed Vegetables (Lunch)</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L10.  Chicken with Mixed Vegetables (Lunch)</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>L11.  Curry Chicken or Beef (Lunch)Spicy</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">L11.  Curry Chicken or Beef (Lunch)Spicy</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

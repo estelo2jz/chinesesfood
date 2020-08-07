@@ -22,74 +22,118 @@ export default class Soup extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>1.  Wonton Soup</li>
-                      <li>(S)$2.95</li>
-                      <li>$4.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">1. Wonton Soup</li>
+                        <li className="option-price-small">(S)$2.95</li>
+                        <li className="option-price-large">$4.95</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>2.  Egg Drop Soup</li>
-                      <li>(S)$2.95</li>
-                      <li>$4.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">2. Egg Drop Soup</li>
+                        <li className="option-price-small">(S)$2.95</li>
+                        <li className="option-price-large">$4.95</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>3.  Wonton Egg Drop Soup</li>
-                      <li>(S)$3.95</li>
-                      <li>$4.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">3. Wonton Egg Drop Soup</li>
+                        <li className="option-price-small">(S)$3.95</li>
+                        <li className="option-price-large">$4.95</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>4.  Chicken Noodle or Rice Soup</li>
-                      <li>(S)$2.95</li>
-                      <li>$4.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">4. Chicken Noodle or Rice Soup</li>
+                        <li className="option-price-small">(S)$2.95</li>
+                        <li className="option-price-large">$4.25</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>5.  Vegetable Soup</li>
-                      <li>(S)$2.95</li>
-                      <li>$4.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">5. Vegetable Soup</li>
+                        <li className="option-price-small">(S)$2.95</li>
+                        <li className="option-price-large">$4.25</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>6.  Hot & Sour Soup</li>
-                      <li>(S)$3.95</li>
-                      <li>(L)$4.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">6. Hot & Sour Soup</li>
+                        <li className="option-price-small">(S)$3.95</li>
+                        <li className="option-price-large">(L)$4.95</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>7.  House Special Soup (for 2)</li>
-                      <li>-</li>
-                      <li>$7.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">7. House Special Soup (for 2)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$7.25</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>7a.  Seafood Noodle Soup (for 2))</li>
-                      <li>-</li>
-                      <li>$9.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">7a. Seafood Noodle Soup (for 2))</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$9.25</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>8.  Seafood or Seafood Hot & Sour Soup (for 2)</li>
-                      <li>-</li>
-                      <li>$7.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">8. Seafood or Seafood Hot & Sour Soup (for 2)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$7.25</li>
+                      </div>
                     </ul>
                   </div>
                 </div>

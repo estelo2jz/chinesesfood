@@ -59,7 +59,7 @@ export default class BrowseMenu extends Component {
               <h1>Beef</h1>
             </NavLink>
             <NavLink to="/seafood">
-              <h1>SeaFood</h1>
+              <h1>Sea Food</h1>
             </NavLink>
             <NavLink to="/eggfooyoung">
               <h1>Egg Foo Young</h1>

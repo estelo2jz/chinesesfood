@@ -37,12 +37,24 @@
       .option-menu-info {
         .option-menu-grid-container {
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr;
+
+          .option-table-flex {
+            width: 400px;
+
+            ul {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              align-content: center;
+              list-style: none;
+              grid-column-gap: 10px;
+            }
+          }
         }
       }
-  
+      
     }
-
+    
   } 
 }
-

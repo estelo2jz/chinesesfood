@@ -23,50 +23,80 @@ export default class MaiFun extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>40.  Vegetable Mai Fun</li>
-                      <li>-</li>
-                      <li>$8.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">40.  Vegetable Mai Fun</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>41.  Chicken or Roast Pork Mai Fun</li>
-                      <li>-</li>
-                      <li>$8.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">41.  Chicken or Roast Pork Mai Fun</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>42.  Shrimp Mai Fun</li>
-                      <li>-</li>
-                      <li>$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">42.  Shrimp Mai Fun</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>42a.  Beef Mai Fun</li>
-                      <li>-</li>
-                      <li>$10.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">42a.  Beef Mai Fun</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$10.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>43.  House Special Mai Fun</li>
-                      <li>-</li>
-                      <li>$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">43.  House Special Mai Fun</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>44.  Singapore Mei Fun</li>
-                      <li>-</li>
-                      <li>$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">44.  Singapore Mei Fun</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

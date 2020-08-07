@@ -22,106 +22,171 @@ export default class Appetizers extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>9.  Roast Pork Egg Roll (1)</li>
-                      <li>-</li>
-                      <li>$1.40</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">9.  Roast Pork Egg Roll (1)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$1.40</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>10.  Shrimp Egg Roll (1)</li>
-                      <li>-</li>
-                      <li>$1.50</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">10.  Shrimp Egg Roll (1)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$1.50</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>11.  Vegetable Spring Roll (2)</li>
-                      <li>-</li>
-                      <li>$2.50</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">11.  Vegetable Spring Roll (2)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$2.50</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>12.  Crabmeat Rangoon (8)</li>
-                      <li>-</li>
-                      <li>$5.00</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">12.  Crabmeat Rangoon (8)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$5.00</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>14.  Fried or Steamed Dumpling (6)</li>
-                      <li>-</li>
-                      <li>$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">14.  Fried or Steamed Dumpling (6)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>15.  French Fries</li>
-                      <li>-</li>
-                      <li>(L)$3.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">15.  French Fries</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">(L)$3.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>16.  Onion Ring</li>
-                      <li>-</li>
-                      <li>$3.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">16.  Onion Ring</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$3.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>17.  Fried Chicken Wings (3)</li>
-                      <li>-</li>
-                      <li>$5.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">17.  Fried Chicken Wings (3)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$5.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>18.  Chicken on Stick (4)</li>
-                      <li>-</li>
-                      <li>$4.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">18.  Chicken on Stick (4)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$4.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>19.  Fried Shrimp (6)</li>
-                      <li>-</li>
-                      <li>$6.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">19.  Fried Shrimp (6)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$6.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>20.  Jumbo Shrimp on Stick (2)</li>
-                      <li>-</li>
-                      <li>$7.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">20.  Jumbo Shrimp on Stick (2)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$7.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>21.  Boneless Spare Rib</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.55</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">21.  Boneless Spare Rib</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.55</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>22.  Fried Plantain</li>
-                      <li>-</li>
-                      <li>$3.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">22.  Fried Plantain</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$3.75</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

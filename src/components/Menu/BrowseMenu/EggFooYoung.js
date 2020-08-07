@@ -23,44 +23,74 @@ export default class EggFooYoung extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>83.  Vegetable Egg Foo Young</li>
-                      <li>$7.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">83.  Vegetable Egg Foo Young</li>
+                        <li className="option-price-large">$7.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>84.  Mushroom Egg Foo Young</li>
-                      <li>$7.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                          <li className="option-name">84.  Mushroom Egg Foo Young</li>
+                          <li className="option-price-large">$7.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>85.  Roast Pork or Chicken Egg Foo Young</li>
-                      <li>$7.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">85.  Roast Pork or Chicken Egg Foo Young</li>
+                        <li className="option-price-large">$7.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>86.  Shrimp Egg Foo Young</li>
-                      <li>$8.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">86.  Shrimp Egg Foo Young</li>
+                        <li className="option-price-large">$8.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>87.  Beef Egg Foo Young</li>
-                      <li>$8.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">87.  Beef Egg Foo Young</li>
+                        <li className="option-price-large">$8.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>88.  House Special Egg Foo Young</li>
-                      <li>$8.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">88.  House Special Egg Foo Young</li>
+                        <li className="option-price-large">$8.25</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

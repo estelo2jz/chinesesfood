@@ -22,82 +22,132 @@ export default class FriedRice extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>24.  Egg Fried Rice</li>
-                      <li>(S)$3.95</li>
-                      <li>(L)$6.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">24.  Egg Fried Rice</li>
+                        <li className="option-price-small">(S)$3.95</li>
+                        <li className="option-price-large">(L)$6.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>25.  Pork or Chicken Fried Rice</li>
-                      <li>(S)$4.75</li>
-                      <li>(L)$7.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">25.  Pork or Chicken Fried Rice</li>
+                        <li className="option-price-small">(S)$4.75</li>
+                        <li className="option-price-large">(L)$7.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>26.  Shrimp Fried Rice</li>
-                      <li>(S)$5.75</li>
-                      <li>(L)$8.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">26.  Shrimp Fried Rice</li>
+                        <li className="option-price-small">(S)$5.75</li>
+                        <li className="option-price-large">(L)$8.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>27.  Beef Fried Rice</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$9.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">27.  Beef Fried Rice</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$9.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>28.  Vegetable Fried Rice</li>
-                      <li>(S)$4.55</li>
-                      <li>$6.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">28.  Vegetable Fried Rice</li>
+                        <li className="option-price-small">(S)$4.55</li>
+                        <li className="option-price-large">$6.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>29.  Crab Meat Fried Rice</li>
-                      <li>(S)$4.75</li>
-                      <li>(L)$7.75</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">29.  Crab Meat Fried Rice</li>
+                        <li className="option-price-small">(S)$4.75</li>
+                        <li className="option-price-large">(L)$7.75</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>30.  Mushroom Fried Rice</li>
-                      <li>(S)$4.55</li>
-                      <li>(L)$6.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">30.  Mushroom Fried Rice</li>
+                        <li className="option-price-small">(S)$4.55</li>
+                        <li className="option-price-large">(L)$6.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>31.  Lobster Fried Rice</li>
-                      <li>(S)$6.95</li>
-                      <li>(L)$9.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">31.  Lobster Fried Rice</li>
+                        <li className="option-price-small">(S)$6.95</li>
+                        <li className="option-price-large">(L)$9.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>32.  House Special Fried Rice</li>
-                      <li>(S)$5.75</li>
-                      <li>$8.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">32.  House Special Fried Rice</li>
+                        <li className="option-price-small">(S)$5.75</li>
+                        <li className="option-price-large">$8.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>33.  Hot & Spicy Jumbo Shrimp Fried Rice</li>
-                      <li>(S)$6.95</li>
-                      <li>(L)$9.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">33.  Hot & Spicy Jumbo Shrimp Fried Rice</li>
+                        <li className="option-price-small">(S)$6.95</li>
+                        <li className="option-price-large">(L)$9.95</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

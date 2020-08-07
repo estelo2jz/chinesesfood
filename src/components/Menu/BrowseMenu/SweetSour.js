@@ -23,26 +23,38 @@ export default class SweetSour extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>101.  Sweet and Sour Pork</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$8.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">101.  Sweet and Sour Pork</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$8.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>102.  Sweet and Sour Chicken</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$8.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">102.  Sweet and Sour Chicken</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$8.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>103.  Sweet and Sour Shrimp</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">103.  Sweet and Sour Shrimp</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.25</li>
+                      </div>
                     </ul>
                   </div>
                 </div>

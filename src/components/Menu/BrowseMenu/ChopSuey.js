@@ -23,42 +23,67 @@ export default class ChopSuey extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>Vegetable Chop Suey</li>
-                      <li>(S)$4.75</li>
-                      <li>(L)$7.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">Vegetable Chop Suey</li>
+                        <li className="option-price-small">(S)$4.75</li>
+                        <li className="option-price-large">(L)$7.25</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>51.  Chicken or Roast Pork Chop Suey</li>
-                      <li>(S)$5.75</li>
-                      <li>(L)$8.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">51.  Chicken or Roast Pork Chop Suey</li>
+                        <li className="option-price-small">(S)$5.75</li>
+                        <li className="option-price-large">(L)$8.25</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>52.  Shrimp Chop Suey</li>
-                      <li>(S)$2.65</li>
-                      <li>(L)$8.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">52.  Shrimp Chop Suey</li>
+                        <li className="option-price-small">(S)$2.65</li>
+                        <li className="option-price-large">(L)$8.95</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>53.  Beef Chop Suey</li>
-                      <li>(S)$6.75</li>
-                      <li>(L)$10.45</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">53.  Beef Chop Suey</li>
+                        <li className="option-price-small">(S)$6.75</li>
+                        <li className="option-price-large">(L)$10.45</li>
+                        
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>54.  House Special Chop Suey</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$8.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">54.  House Special Chop Suey</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$8.95</li>
+                        
+                      </div>
                     </ul>
                   </div>
                 </div>

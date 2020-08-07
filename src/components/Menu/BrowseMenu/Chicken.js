@@ -23,41 +23,67 @@ export default class Chicken extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>Chicken with Broccoli</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">Chicken with Broccoli</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <li>57.  Moo Goo Gai Pan</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">57.  Moo Goo Gai Pan</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>59.  Chicken with Snow Peas</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$9.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">59.  Chicken with Snow Peas</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$9.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>60.  Chicken with Mixed Vegetable</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">60.  Chicken with Mixed Vegetable</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>61.  Chicken with Curry Sauce</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">61.  Chicken with Curry Sauce</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

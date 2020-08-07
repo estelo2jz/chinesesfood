@@ -23,65 +23,98 @@ export default class Vegetables extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>89.  Sauteed Broccoli</li>
-                      <li>(S)$4.75</li>
-                      <li>$8.25</li>
+                     <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">89.  Sauteed Broccoli</li>
+                        <li className="option-price-small">(S)$4.75</li>
+                        <li className="option-price-large">$8.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>90.  Sauteed Snow Peas</li>
-                      <li>-</li>
-                      <li>$8.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">90.  Sauteed Snow Peas</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>91.  Sauteed Mixed Vegetables</li>
-                      <li>-</li>
-                      <li>$8.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">91.  Sauteed Mixed Vegetables</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>92.  Szechuan Bean Curd</li>
-                      <li>-</li>
-                      <li>$8.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">92.  Szechuan Bean Curd</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>93.  Bean Curd with Broccoli</li>
-                      <li>-</li>
-                      <li>$8.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">93.  Bean Curd with Broccoli</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <li>94.  Buddha's Delight (Chinese Veg.)</li>
-                      <li>-</li>
-                      <li>$8.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">94.  Buddha's Delight (Chinese Veg.)</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>95.  Broccoli in Garlic Sauce</li>
-                      <li>-</li>
-                      <li>$8.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">95.  Broccoli in Garlic Sauce</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$8.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>96.  Crispy Orange Tofu</li>
-                      <li>-</li>
-                      <li>$9.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">96.  Crispy Orange Tofu</li>
+                        <li className="option-price-small">-</li>
+                        <li className="option-price-large">$9.25</li>
+                      </div>
                     </ul>
                   </div>
                 </div>

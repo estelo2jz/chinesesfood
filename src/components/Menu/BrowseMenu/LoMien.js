@@ -23,58 +23,93 @@ export default class LoMien extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>34.  Chicken or Roast Pork Lo Mein</li>
-                      <li>(S)$5.5</li>
-                      <li>(L)$7.55</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">34.  Chicken or Roast Pork Lo Mein</li>
+                        <li className="option-price-small">(S)$5.5</li>
+                        <li className="option-price-large">(L)$7.55</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>35.  Shrimp Lo Mein</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$8.45</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">35.  Shrimp Lo Mein</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$8.45</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>35a.  Beef Lo Mein</li>
-                      <li>(S)$6.95</li>
-                      <li>(L)$9.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">35a.  Beef Lo Mein</li>
+                        <li className="option-price-small">(S)$6.95</li>
+                        <li className="option-price-large">(L)$9.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>36.  Vegetable Lo Mein</li>
-                      <li>(S)$4.75</li>
-                      <li>(L)$7.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">36.  Vegetable Lo Mein</li>
+                        <li className="option-price-small">(S)$4.75</li>
+                        <li className="option-price-large">(L)$7.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>37.  Lobster Lo Mein</li>
-                      <li>(S)$6.95</li>
-                      <li>(L)$9.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">37.  Lobster Lo Mein</li>
+                        <li className="option-price-small">(S)$6.95</li>
+                        <li className="option-price-large">(L)$9.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>38.  House Special Lo Mein</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$8.45</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">38.  House Special Lo Mein</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$8.45</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>39.  Hot Spicy Jumbo Shrimp Lo Mein</li>
-                      <li>(S)$6.95</li>
-                      <li>(L)$10.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">39.  Hot Spicy Jumbo Shrimp Lo Mein</li>
+                        <li className="option-price-small">(S)$6.95</li>
+                        <li className="option-price-large">(L)$10.25</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

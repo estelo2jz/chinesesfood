@@ -23,34 +23,54 @@ export default class Pork extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>62.  Roast Pork with Broccoli</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">62.  Roast Pork with Broccoli</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>63.  Roast Pork with Chinese Veg.</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">63.  Roast Pork with Chinese Veg.</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>64.  Roast Pork with Snow Peas</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$9.95</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">64.  Roast Pork with Snow Peas</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$9.95</li>
+
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>65.  Roast Pork with Mushrooms</li>
-                      <li>(S)$5.95</li>
-                      <li>(L)$9.25</li>
+                      <div className="option-left-side">
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div className="option-right-side">
+                        <li className="option-name">65.  Roast Pork with Mushrooms</li>
+                        <li className="option-price-small">(S)$5.95</li>
+                        <li className="option-price-large">(L)$9.25</li>
+
+                      </div>
                     </ul>
                   </div>
                 </div>

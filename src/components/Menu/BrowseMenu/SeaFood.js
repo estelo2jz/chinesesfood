@@ -23,66 +23,98 @@ export default class SeaFood extends Component {
                 <div className="option-menu-grid-container">
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>74.  Jumbo Shrimp with Broccoli</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">74.  Jumbo Shrimp with Broccoli</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>75.  Jumbo Shrimp with Lobster Sauce</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">75.  Jumbo Shrimp with Lobster Sauce</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>76.  Jumbo Shrimp with Chinese Veg.</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">76.  Jumbo Shrimp with Chinese Veg.</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>78.  Jumbo Shrimp with Snow Peas)</li>
-                      <li>(S)$6.95</li>
-                      <li>(L)$10.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">78.  Jumbo Shrimp with Snow Peas)</li>
+                        <li className="option-price-small">(S)$6.95</li>
+                        <li className="option-price-large">(L)$10.95</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>79.  Jumbo Shrimp with Mushrooms</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.75</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">79.  Jumbo Shrimp with Mushrooms</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.75</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>80.  Jumbo Shrimp with Mixed Veg.</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">80.  Jumbo Shrimp with Mixed Veg.</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>81.  Jumbo Shrimp with Curry Sauce</li>
-                      <li>(S)$6.25</li>
-                      <li>(L)$10.25</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">81.  Jumbo Shrimp with Curry Sauce</li>
+                        <li className="option-price-small">(S)$6.25</li>
+                        <li className="option-price-large">(L)$10.25</li>
+                      </div>
                     </ul>
                   </div>
                   <div className="option-table-flex">
                     <ul>
-                      <img src='http://via.placeholder.com/130x130' />
-                      <li>82.  Salt & Pepper Shrimp</li>
-                      <li>(S)$7.95</li>
-                      <li>(L)$14.95</li>
+                      <div>
+                        <img src='http://via.placeholder.com/130x130' />
+                      </div>
+                      <div>
+                        <li className="option-name">82.  Salt & Pepper Shrimp</li>
+                        <li className="option-price-small">(S)$7.95</li>
+                        <li className="option-price-large">(L)$14.95</li>
+                      </div>
                     </ul>
                   </div>
                 </div>
