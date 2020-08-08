@@ -26,10 +26,10 @@ export default class BrowseMenu extends Component {
               <h1>Fried Rice</h1>
             </NavLink>
             <NavLink to="/lomien">
-              <h1>Lo Mien</h1>
+              <h1>Lo Mien (Soft Noodle)</h1>
             </NavLink>
             <NavLink to="/maifun">
-              <h1>Mai Fun</h1>
+              <h1>Mai Fun (Thin Rice Noodle)</h1>
             </NavLink>
             <NavLink to="/chopsuey">
               <h1>Chop Suey</h1>
