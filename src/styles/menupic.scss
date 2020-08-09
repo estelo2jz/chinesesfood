@@ -1,0 +1,93 @@
+.menu-pic-container {
+  width: 500px;
+  .menu-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin: 20px;
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+
+// Address styles
+.address-container {
+  width: 500px;
+
+  p {
+    width: 400px;
+  }
+}
+
+
+// Develery styles
+.develery-container {
+  width: 500px;
+
+  p {
+    width: 400px;
+  }
+}
+
+// About styles
+.about-container {
+  width: 600px;
+
+  h2 {
+    font-family: 'Hind Madurai', sans-serif;
+    width: 670px;
+
+  }
+}
+
+// Menu Highlight styles
+.menu-high-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .menu-high-grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    h2 {
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    h4 {
+      font-family: 'Hind Madurai', sans-serif;
+
+    }
+
+    .menu-high-item-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      grid-column-gap: 10px;
+
+      .menu-high-image {
+        img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+
+      .menu-topic-container {
+        display: grid;
+        justify-content: center;
+        p {
+          width: 200px;
+          padding: 0;
+          margin: 1px;
+        }
+      }
+    }
+  }
+}
