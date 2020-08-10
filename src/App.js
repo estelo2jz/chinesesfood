@@ -11,6 +11,7 @@ import Coupon from './components/Coupon';
 import Map from './components/Map';
 import Cart from './components/Cart';
 import Feedback from './components/Feedback';
+import Footer from './components/Footer';
 
 // Menu Options Pages
 import LunchSpecial from './components/Menu/BrowseMenu/LunchSpecial';
@@ -32,8 +33,10 @@ function App() {
   return (
     <div className="App">
     <Router>
-      <TopNav />
-      <NavBar />
+      <div className="App-nav-container">
+        <TopNav />
+        <NavBar />
+      </div>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/menu" component={Menu} />
@@ -59,6 +62,7 @@ function App() {
         <Route path="/sweetsour" component={SweetSour} />
 
       </Switch>
+      {/* <Footer /> */}
     </Router>
   </div>
   );

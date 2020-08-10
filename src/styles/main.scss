@@ -5,3 +5,18 @@
 // Home styles
 @import './home.scss';
 @import './menupic.scss';
+
+.App {
+  height: 100%;
+}
+
+.App-nav-container {
+  background-image: url('../images/topbg1.jpg');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  height: 100%;
+}

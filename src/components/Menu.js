@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import BrowseMenu from './Menu/BrowseMenu/BrowseMenu';
 
-import AllDishes from './Menu/BrowseMenu/AllDishes';
-
 // Menu Options
 import LunchSpecial from '../components/Menu/BrowseMenu/LunchSpecial';
 import Soup from '../components/Menu/BrowseMenu/Soup';
@@ -29,6 +27,9 @@ export default class Menu extends Component {
             <div>
               <BrowseMenu />
             </div>
+          </div>
+          <div className="option-image-container">
+            <p></p>
           </div>
         </div>
       </div>
